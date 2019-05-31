@@ -18,11 +18,11 @@ function whileLoop(n) {
 }
 
 function doWhileLoop(num) {
-  function incrementVariable() {
-    num++
+  function decrementVariable() {
+    num--
     return num
   }
   do {
     console.log('I run once regardless.')
-  } while(incrementVariable()>20)
+  } while(decrementVariable()>0)
 }
